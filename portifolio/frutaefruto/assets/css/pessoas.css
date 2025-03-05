@@ -1,0 +1,18 @@
+.pessoas{
+    /* Coloca as pessoas lado a lado e com espaçamento entre elas, alinhando perfeitamente ao centro */
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 0){
+    .pessoas{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .pessoas{
+        flex-direction: row;
+    }
+}
